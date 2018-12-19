@@ -1,0 +1,13 @@
+{
+ "manifest_version": 2,
+ "name": "LyricsForSpotify",
+ "description": "Find lyrics for your favourite songs",
+ "version": "0.1.0",
+ "author": "Elabie&FRS",
+"content_scripts" : [{
+	"css" : ["styles.css"],
+	"js" : ["main.js"],
+	"matches" : ["https://open.spotify.com/*"]
+}],
+"permissions" : ["https://*.genius.com/"]
+}

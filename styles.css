@@ -1,0 +1,23 @@
+body, #main, .now-playing-bar-container {
+	padding-right: 400px;
+}
+ 
+.el-lyrics {
+	position: fixed;
+	right: 0;
+	z-index: 6840684;
+	overflow-y: scroll;
+    width: 400px;
+    height: 100vh;
+    padding: 10px;
+    text-align: center;
+    background: #070707;
+    color: white;
+    scroll-behavior: smooth;
+ }
+
+ .el-lyrics a {
+ 	text-decoration: none;
+ 	cursor: auto;
+ 	pointer-events: none;
+ }
